@@ -1,0 +1,13 @@
+const SpeedTest = require('speedtest-net');
+(async () => {
+    console.log("your speed test result: ")
+  try {
+    console.log(await SpeedTest());
+  } 
+  catch (error) {
+    console.log(error.message);
+  } 
+  finally {
+    process.exit(0);
+  }
+})();
