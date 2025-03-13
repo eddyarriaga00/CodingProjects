@@ -34,4 +34,3 @@ public class Program
         return sum;
     }
 }
-//insert a binary number or error
